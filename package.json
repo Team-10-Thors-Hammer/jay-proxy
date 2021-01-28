@@ -1,17 +1,36 @@
 {
-  "name": "",
-  "version": "",
-  "description": "",
+  "name": "jay-proxy",
+  "description": "> Project description",
   "author": "",
-  "license": "",
+  "license": "ISC",
   "engines": {
     "node": ">=6.13.0"
   },
   "scripts": {
+    "start": "node server/index.js"
   },
   "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.13",
+    "path": "^0.12.7",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   },
   "devDependencies": {
-    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
-  }
+    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor.git"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Team-10-Thors-Hammer/jay-proxy.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Team-10-Thors-Hammer/jay-proxy/issues"
+  },
+  "homepage": "https://github.com/Team-10-Thors-Hammer/jay-proxy#readme"
 }

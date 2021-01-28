@@ -1,0 +1,6 @@
+[submodule "adrian-services"]
+	path = adrian-services
+	url = https://github.com/Team-10-Thors-Hammer/adrian-services
+[submodule "services/adrian-services"]
+	path = services/adrian-services
+	url = https://github.com/Team-10-Thors-Hammer/adrian-services
